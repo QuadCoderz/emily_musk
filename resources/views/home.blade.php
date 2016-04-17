@@ -34,8 +34,10 @@
     <script type="text/javascript">
      $(document).ready(function(e) {
       $('.res-nav_click').click(function(){
+
         $('ul.toggle').slideToggle(600) 
       });   
+
       $(document).ready(function() {
         $(window).bind('scroll', function() {
          if ($(window).scrollTop() > 0) {
@@ -45,8 +47,10 @@
            $('#header_outer').removeClass('fixed');
          }
        });
+
       });
     }); 
+
      function resizeText() {
        var preferredWidth = 767;
        var displayWidth = window.innerWidth;
@@ -235,7 +239,9 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
+
             <a href="/SignIn" class="btn btn-price">Subscribe Now</a>
+
           </div>
         </div>
 
@@ -251,7 +257,9 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
+
             <a href="/SignIn" class="btn btn-price">Subscribe Now</a>
+
           </div>
         </div>
 
@@ -267,7 +275,9 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
+
             <a href="/SignIn" class="btn btn-price">Subscribe Now</a>
+
           </div>
         </div>
 
@@ -283,7 +293,9 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
+
             <a href="/SignIn"  class="btn btn-price">Subscribe Now</a>
+
           </div>
         </div>
       </div>
@@ -496,6 +508,7 @@
 
 <!--
 <section class="main-section paddind" id="Portfolio">
+<<<<<<< HEAD
     <div class="container">
         <h2>Portfolio</h2>
         <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
@@ -503,6 +516,16 @@
     
     
 </section>   
+=======
+	<div class="container">
+    	<h2>Portfolio</h2>
+    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+	</div>
+    
+    
+</section>   
+
+>>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
 -->
 <section class="main-section" id="client_outer"><!--main-section client-part-start-->
   <div class="section-title text-center wow fadeInUp">
@@ -679,7 +702,9 @@
     $('.res-nav_click').click(function(){
       $('.main-nav').slideToggle();
       return false    
+
     });
+
   });
 </script> 
 <script>
@@ -700,6 +725,7 @@
   };
 </script> 
 <script type="text/javascript">
+
     $(window).load(function(){
         
         $('a').bind('click',function(event){
@@ -717,6 +743,7 @@
             event.preventDefault();
         });
     })
+
 </script> 
 <script type="text/javascript">
   $('.dropdown-menu input, .dropdown-menu label').click(function(e) {
@@ -724,6 +751,10 @@
   });
 </script>
 <!--<script type="text/javascript">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
 $(window).load(function(){
   
   
@@ -731,6 +762,10 @@ $(window).load(function(){
       $body = $('body'),
       colW = 350,
       columns = null;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
   
   $container.isotope({
     // disable window resizing
@@ -758,13 +793,18 @@ $(window).load(function(){
  
         var selector = $(this).attr('data-filter');
         $container.isotope({
+<<<<<<< HEAD
             
+=======
+			
+>>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
             filter: selector,
          });
          return false;
     });
   
 });
+<<<<<<< HEAD
 </script>
 --> 
 
@@ -772,6 +812,22 @@ $(window).load(function(){
   jQuery(document).ready(function($){     
 // Portfolio Isotope
 var container = $('#portfolio-wrap');   
+=======
+
+</script>
+
+
+--> 
+
+<script type="text/javascript">
+
+
+  jQuery(document).ready(function($){     
+// Portfolio Isotope
+var container = $('#portfolio-wrap');	
+
+
+>>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
 container.isotope({
   animationEngine : 'best-available',
   animationOptions: {
@@ -779,7 +835,9 @@ container.isotope({
    queue: false
  },
  layoutMode: 'fitRows'
+
 }); 
+
 $('#filters a').click(function(){
   $('#filters a').removeClass('active');
   $(this).addClass('active');
@@ -791,6 +849,7 @@ $('#filters a').click(function(){
 function splitColumns() { 
  var winWidth = $(window).width(), 
  columnNumb = 1;
+
  if (winWidth > 1024) {
   columnNumb = 4;
 } else if (winWidth > 900) {
@@ -800,18 +859,22 @@ function splitColumns() {
 } else if (winWidth < 479) {
   columnNumb = 1;
 }
+
 return columnNumb;
 }       
+
 function setColumns() { 
  var winWidth = $(window).width(), 
  columnNumb = splitColumns(), 
  postWidth = Math.floor(winWidth / columnNumb);
+
  container.find('.portfolio-item').each(function () { 
   $(this).css( { 
    width : postWidth + 'px' 
  });
 });
 }       
+
 function setProjects() { 
  setColumns();
  container.isotope('reLayout');
@@ -822,6 +885,7 @@ container.imagesLoaded(function () {
 $(window).bind('resize', function () { 
  setProjects();         
 });
+
 });
   $( window ).load(function() {
    jQuery('#all').click();
@@ -829,4 +893,5 @@ $(window).bind('resize', function () {
  });
 </script>
 </body>
+
 </html>

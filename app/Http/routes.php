@@ -10,6 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+
 //Route::get('/', 'HomePageController@showHomePage');
 //Route::get('/home', 'HomePageController@showHomePage');
 //Route::get('/SignIn', 'SignInController@SignInPage');
@@ -44,5 +45,6 @@ Route::group(['middleware' => ['web']], function () {
 //Route::get('/home', 'HomeController@index');
 
 });
+
 
 
