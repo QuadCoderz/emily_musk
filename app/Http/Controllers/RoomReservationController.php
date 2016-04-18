@@ -33,7 +33,7 @@ class RoomReservationController extends Controller
 			$new_res->starting_time=$from;
 			$new_res->ending_time=$to;
 			$new_res->people_num=$people_No;
-			$new_res->proj=$projector;
+			$new_res->projector=$projector;
 
 			$new_res->save();
 
@@ -41,6 +41,10 @@ class RoomReservationController extends Controller
 		else
 			echo'error';
 
+		return redirect('home');
+
+
 	}
+
 
 }

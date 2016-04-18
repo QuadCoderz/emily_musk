@@ -20,7 +20,9 @@ Route::get('/home/basic', 'addMembershipController@basic');
 Route::get('/home/premium', 'addMembershipController@premium');
 Route::get('/home/pro', 'addMembershipController@pro');
 Route::get('/home/platinum', 'addMembershipController@platinum');
+Route::get('/Events/eventRegisterationController/{id}', 'eventRegisterationController@add');
+
 Route::get('/home/custom', 'addMembershipController@custom');
 Route::get('/SignUp', 'SignUpController@SignUpPage');
-Route::get('/Events', 'EventsController@EventsPage');
+Route::get('/Events/{eventId}', 'EventsController@EventsPage');
 

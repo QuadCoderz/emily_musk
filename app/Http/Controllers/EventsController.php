@@ -8,8 +8,10 @@ use App\Http\Requests;
 
 class EventsController extends Controller
 {
-    public function EventsPage(){
-		return View::make('Events');
+    public function EventsPage($eventId){
 
-	}  
+		$arr=['id'=>$eventId];
+		return View::make('Events',$arr);
+
+	}
 }

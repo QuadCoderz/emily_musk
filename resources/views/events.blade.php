@@ -162,7 +162,7 @@
           <div class="col-md-12">
             <div class="special-plan text-center">
               <p>If you are interseted book a seat</p>
-              <a href="#" class="btn btn-blue">Book Now</a>
+              <a href="eventRegisterationController/{{$id}}" class="btn btn-blue">Book Now</a>
             </div>
           </div>
         </div>
