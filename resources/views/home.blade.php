@@ -750,11 +750,9 @@
     e.stopPropagation();
   });
 </script>
-<!--<script type="text/javascript">
-<<<<<<< HEAD
-=======
 
->>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
+<script type="text/javascript">
+
 $(window).load(function(){
   
   
@@ -762,10 +760,7 @@ $(window).load(function(){
       $body = $('body'),
       colW = 350,
       columns = null;
-<<<<<<< HEAD
-=======
 
->>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
   
   $container.isotope({
     // disable window resizing
@@ -793,41 +788,22 @@ $(window).load(function(){
  
         var selector = $(this).attr('data-filter');
         $container.isotope({
-<<<<<<< HEAD
-            
-=======
-			
->>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
+
             filter: selector,
          });
          return false;
     });
   
 });
-<<<<<<< HEAD
+
 </script>
---> 
+ 
 
 <script type="text/javascript">
   jQuery(document).ready(function($){     
 // Portfolio Isotope
 var container = $('#portfolio-wrap');   
-=======
 
-</script>
-
-
---> 
-
-<script type="text/javascript">
-
-
-  jQuery(document).ready(function($){     
-// Portfolio Isotope
-var container = $('#portfolio-wrap');	
-
-
->>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
 container.isotope({
   animationEngine : 'best-available',
   animationOptions: {

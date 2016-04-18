@@ -162,11 +162,9 @@
           <div class="col-md-12">
             <div class="special-plan text-center">
               <p>If you are interseted book a seat</p>
-<<<<<<< HEAD
+
               <a href="/Events/BookNow" class="btn btn-blue">Book Now</a>
-=======
-              <a href="#" class="btn btn-blue">Book Now</a>
->>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
+
             </div>
           </div>
         </div>
@@ -241,7 +239,7 @@
       })
     </script> 
 
-<!--<script type="text/javascript">
+<script type="text/javascript">
 
 $(window).load(function(){
   
@@ -289,7 +287,7 @@ $(window).load(function(){
 </script>
 
 
---> 
+
 
 <script type="text/javascript">
 

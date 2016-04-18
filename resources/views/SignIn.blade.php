@@ -442,7 +442,7 @@
 		})
 	</script> 
 
-<!--<script type="text/javascript">
+<script type="text/javascript">
 
 $(window).load(function(){
   
@@ -490,7 +490,7 @@ $(window).load(function(){
 </script>
 
 
---> 
+
 
 <script type="text/javascript">
 

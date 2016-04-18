@@ -560,18 +560,20 @@
 
 	<div class="data">
 
-		<form action="AgencySignupController" method="POST" >
+	<form class="form-horizontal" role="form" method="POST" action="{{ url('/RoomReservation') }}">
+
+                        {!! csrf_field() !!}
+
+
 
 			<table align="center" cellpadding = "10">
 
-				<!-----Reservation Date ---------------------------------------------------------->
 				<tr>
 					<td>Reservation Date</td>
 					<td><input type="date" name="Rdate" maxlength="30" placeholder="First Name"  required />
 					</td>
 				</tr>
 
-				<!----- User Name ---------------------------------------------------------->
 				<tr>
 					<td>From</td>
 					<td><input type="time" name="Ftime"  required/>
@@ -596,7 +598,7 @@
 
 
 
-				<!----- Password ---------------------------------------------------------->
+				<!--- Password -->
 				<tr>
 					<td>Do you need a projector ?</td>
 					<td>
@@ -610,7 +612,7 @@
 
 
 
-            <!----- Submit and Reset ------------------------------------------------->
+            
             <tr>
                 <td  align="center" colspan="2">
                     <input type="submit" value="Submit" >
@@ -673,7 +675,7 @@
 	})
 </script> 
 
-<!--<script type="text/javascript">
+<script type="text/javascript">
 
 $(window).load(function(){
   
@@ -720,8 +722,6 @@ $(window).load(function(){
 
 </script>
 
-
---> 
 
 <script type="text/javascript">
 

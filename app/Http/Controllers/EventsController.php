@@ -15,7 +15,7 @@ class EventsController extends Controller
 
 
     public function EventsPage(){
-		return view('Events');
+		return view('events');
 
 	}  
 
