@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class EventsController extends Controller
 {
-     public function __construct()
+  	 public function __construct()
     {
         $this->middleware('auth');
     }
@@ -21,3 +21,5 @@ class EventsController extends Controller
 
 	public function EventsBook(){
 		return "You Sucessfully Booked!"; // make it show user name
+	}
+}

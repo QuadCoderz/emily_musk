@@ -14,4 +14,5 @@ class SignUpController extends Controller
 		return view('auth.register');
 
 
-	}  }
+	}  
+}

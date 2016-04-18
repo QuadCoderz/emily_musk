@@ -17,5 +17,5 @@ class RoomReservationController extends Controller
 	public function RoomReservationPage(){
 		return view('RoomReservation');
 
-}
+	}
 }
