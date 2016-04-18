@@ -9,12 +9,6 @@ use Illuminate\Http\Request;
 class EventsController extends Controller
 {
 
-  	 public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-
     public function EventsPage($eventId){
 
 		$arr=['id'=>$eventId];
