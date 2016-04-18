@@ -15,6 +15,12 @@ Route::get('/', 'HomePageController@showHomePage');
 Route::get('/home', 'HomePageController@showHomePage');
 Route::get('/SignIn', 'SignInController@SignInPage');
 Route::get('/RoomReservation', 'RoomReservationController@RoomReservationPage');
+Route::post('/RoomReservation/add', 'RoomReservationController@add');
+Route::get('/home/basic', 'addMembershipController@basic');
+Route::get('/home/premium', 'addMembershipController@premium');
+Route::get('/home/pro', 'addMembershipController@pro');
+Route::get('/home/platinum', 'addMembershipController@platinum');
+Route::get('/home/custom', 'addMembershipController@custom');
 Route::get('/SignUp', 'SignUpController@SignUpPage');
 Route::get('/Events', 'EventsController@EventsPage');
 

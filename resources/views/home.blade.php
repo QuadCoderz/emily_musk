@@ -239,7 +239,7 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
-            <a href="#" class="btn btn-price">Subscribe Now</a>
+            <a href="home/basic" class="btn btn-price">Subscribe Now</a>
           </div>
         </div>
 
@@ -255,7 +255,7 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
-            <a href="#" class="btn btn-price">Subscribe Now</a>
+            <a href="home\premium" class="btn btn-price">Subscribe Now</a>
           </div>
         </div>
 
@@ -271,7 +271,7 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
-            <a href="#" class="btn btn-price">Subscribe Now</a>
+            <a href="home\pro" class="btn btn-price">Subscribe Now</a>
           </div>
         </div>
 
@@ -287,7 +287,7 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
-            <a href="#" class="btn btn-price">Subscribe Now</a>
+            <a href="home\platinum" class="btn btn-price">Subscribe Now</a>
           </div>
         </div>
       </div>
@@ -312,7 +312,7 @@
 
                   </div>
                   <div>
-                    <a href="/SignIn" type="button" class="btn btn-primary" style="margin-top: 10px;">Submit</a>
+                    <a href="home/custom" type="button" class="btn btn-primary" style="margin-top: 10px;">Submit</a>
                   </div>
                 </form>
               </ul>
