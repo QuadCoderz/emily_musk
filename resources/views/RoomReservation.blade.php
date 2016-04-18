@@ -11,7 +11,6 @@
 	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 	<link href="css/responsive.css" rel="stylesheet" type="text/css">
 	<link href="css/animate.css" rel="stylesheet" type="text/css">
-
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
 
@@ -560,28 +559,24 @@
 
 	<div class="data">
 
-	<form class="form-horizontal" role="form" method="POST" action="{{ url('/RoomReservation') }}">
 
-                        {!! csrf_field() !!}
-
+		<form action="RoomReservation/add" method="POST" >
+			{!! csrf_field() !!}
 
 
 			<table align="center" cellpadding = "10">
 
 				<tr>
 					<td>Reservation Date</td>
-					<td><input type="date" name="Rdate" maxlength="30" placeholder="First Name"  required />
+					<td>from:<input type="date" name="stdate" maxlength="30"   required /></td>
+					<td>To:<input type="date" name="enddate" maxlength="30"   required />
 					</td>
 				</tr>
 
 				<tr>
-					<td>From</td>
-					<td><input type="time" name="Ftime"  required/>
-
-					</td>
-					<td>To</td>
-					<td><input type="time" name="Ttime"  required/>
-
+					<td>Reservation Time</td>
+					<td>From<input type="time" name="Ftime"  required/></td>
+					<td>To<input type="time" name="Ttime"  required/>
 					</td>
 				</tr>
 
@@ -624,7 +619,6 @@
     </form>
 
     </div>
-
 
 
 <script type="text/javascript">

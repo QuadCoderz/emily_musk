@@ -8,16 +8,19 @@ use Illuminate\Http\Request;
 
 class EventsController extends Controller
 {
+
   	 public function __construct()
     {
         $this->middleware('auth');
     }
 
 
-    public function EventsPage(){
-		return view('events');
+    public function EventsPage($eventId){
 
-	}  
+		$arr=['id'=>$eventId];
+		return view('Events',$arr);
+
+	}
 
 	public function EventsBook(){
 		return "You Sucessfully Booked!"; // make it show user name

@@ -240,7 +240,7 @@
               <li>Feature N0 4</li>
             </ul>
 
-            <a href="/SignIn" class="btn btn-price">Subscribe Now</a>
+            <a href="home/basic" class="btn btn-price">Subscribe Now</a>
 
           </div>
         </div>
@@ -258,7 +258,7 @@
               <li>Feature N0 4</li>
             </ul>
 
-            <a href="/SignIn" class="btn btn-price">Subscribe Now</a>
+            <a href="home\premium" class="btn btn-price">Subscribe Now</a>
 
           </div>
         </div>
@@ -275,9 +275,7 @@
               <li>Feature N0 3</li>
               <li>Feature N0 4</li>
             </ul>
-
-            <a href="/SignIn" class="btn btn-price">Subscribe Now</a>
-
+            <a href="home\pro" class="btn btn-price">Subscribe Now</a>
           </div>
         </div>
 
@@ -294,7 +292,7 @@
               <li>Feature N0 4</li>
             </ul>
 
-            <a href="/SignIn"  class="btn btn-price">Subscribe Now</a>
+            <a href="home\platinum" class="btn btn-price">Subscribe Now</a>
 
           </div>
         </div>
@@ -320,7 +318,7 @@
 
                   </div>
                   <div>
-                    <a href="/SignIn" type="button" class="btn btn-primary" style="margin-top: 10px;">Submit</a>
+                    <a href="home/custom" type="button" class="btn btn-primary" style="margin-top: 10px;">Submit</a>
                   </div>
                 </form>
               </ul>
@@ -372,7 +370,7 @@
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/19.jpg"  alt="Portfolio 1"> </div>
                                 <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                href="/Events/1" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -386,8 +384,8 @@
                               <!-- Portfolio Item Video Expander  -->
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/41 5alas.jpg"  alt="Portfolio 1"> </div>
-                                <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                <a title="Event 2" rel="prettyPhoto[galname]"
+                                href="/Events/2" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -401,8 +399,8 @@
                               <!-- Portfolio Item Normal Expander -->
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/19.jpg"  alt="Portfolio 1"> </div>
-                                <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                <a title="Event 3" rel="prettyPhoto[galname]"
+                                href="/Events/3" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -416,8 +414,8 @@
                               <!-- Portfolio Item FullScreen Expander -->
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/19.jpg"  alt="Portfolio 1"> </div>
-                                <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                <a title="Event 4" rel="prettyPhoto[galname]"
+                                href="/Events/4" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -431,8 +429,8 @@
                               <!-- Portfolio Item FullScreen Expander -->
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/19.jpg"  alt="Portfolio 1"> </div>
-                                <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                <a title="Event 5" rel="prettyPhoto[galname]"
+                                href="/Events/5" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -446,8 +444,8 @@
                               <!-- Portfolio Item Normal Expander -->
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/19.jpg"  alt="Portfolio 1"> </div>
-                                <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                <a title="Event 6" rel="prettyPhoto[galname]"
+                                href="/Events/6" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -461,8 +459,8 @@
                               <!-- Portfolio Item External Project  -->
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/19.jpg"  alt="Portfolio 1"> </div>
-                                <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                <a title="Event 7" rel="prettyPhoto[galname]"
+                                href="/Events/7" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -476,8 +474,8 @@
                               <!-- Portfolio Item With PrettyPhoto  -->
                               <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                                 <div class="portfolio-image"> <img src="img/19.jpg"  alt="Portfolio 1"> </div>
-                                <a title="Event 1" rel="prettyPhoto[galname]" 
-                                href="/Events" target="_blank">
+                                <a title="Event 8" rel="prettyPhoto[galname]"
+                                href="/Events/8" target="_blank">
                                 <div class="project-overlay">
                                   <div class="project-info">
                                     <div class="zoom-icon"></div>
@@ -508,7 +506,6 @@
 
 <!--
 <section class="main-section paddind" id="Portfolio">
-<<<<<<< HEAD
     <div class="container">
         <h2>Portfolio</h2>
         <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
@@ -516,16 +513,7 @@
     
     
 </section>   
-=======
-	<div class="container">
-    	<h2>Portfolio</h2>
-    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
-	</div>
-    
-    
-</section>   
 
->>>>>>> 60be2b45e4cc1cb933e726a143e6431ebafe1449
 -->
 <section class="main-section" id="client_outer"><!--main-section client-part-start-->
   <div class="section-title text-center wow fadeInUp">
